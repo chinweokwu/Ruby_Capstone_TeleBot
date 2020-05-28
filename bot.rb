@@ -1,6 +1,7 @@
 require 'telegram/bot'
-require '.love'
-require '.inspire'
+require './lib/love'
+require './lib/inspire'
+
 # rubocop:disable Layout/LineLength
 # rubocop:disable Metrics/BlockLength
 token = '1239771112:AAFc73gTTkpsr9aoO4rNMPo-qKeKfsmQpyI'

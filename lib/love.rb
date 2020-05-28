@@ -40,3 +40,4 @@ end
 
 pp = LoveQuotes.new
 puts pp.luv
+puts pp.luv_json

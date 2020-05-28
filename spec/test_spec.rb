@@ -8,11 +8,11 @@ describe InspireQuotes do
   let(:inspire_string) {inspire_req.inspire_quotes}
 
   it 'should return json' do
-    expect(inspire_json.class).to eql(Hash)
+    expect(inspire_json.class).to eq(String)
   end
 
    it 'should return a string' do
-      expect(inspire_string.class).to eql(String)
+      expect(inspire_string.class).to eq(String)
    end
   end
 end
@@ -24,11 +24,11 @@ describe LoveQuotes do
   let(:love_string) {love_req.luv}
 
   it 'should return json' do
-    expect(love_json.class).to eql(Hash)
+    expect(love_json.class).to eq(String)
   end
 
    it 'should return a string' do
-      expect(love_string.class).to eql(String)
+      expect(love_string.class).to eq(String)
    end
   end
 end
