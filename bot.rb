@@ -40,6 +40,6 @@ Telegram::Bot::Client.run(token) do |bot|
       )
     end
   end
-end 
+end
 # rubocop:enable Layout/LineLength
 # rubocop:enable Metrics/BlockLength

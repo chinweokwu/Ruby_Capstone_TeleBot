@@ -19,7 +19,7 @@ class LoveQuotes
     response = http.request(request)
     res = response.read_body
 
-    return JSON.parse(res)['Message']
+    JSON.parse(res)['Message']
   end
 
   def luv_json
@@ -34,7 +34,7 @@ class LoveQuotes
     request['x-rapidapi-key'] = 'a2434ca4bfmshd883b6dee224563p1ea83djsnc9e99ad0913b'
 
     response = http.request(request)
-    return response.read_body
+    response.read_body
   end
 end
 

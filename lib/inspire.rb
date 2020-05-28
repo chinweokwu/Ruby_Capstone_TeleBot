@@ -18,8 +18,8 @@ class InspireQuotes
 
     response = http.request(request)
     res = response.read_body
-      
-      return JSON.parse(res)['Message']
+
+    JSON.parse(res)['Message']
   end
 
   def json_rspec
