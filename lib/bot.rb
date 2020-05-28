@@ -1,6 +1,6 @@
 require 'telegram/bot'
-require './love'
-require './inspire'
+require '.love'
+require '.inspire'
 # rubocop:disable Layout/LineLength
 # rubocop:disable Metrics/BlockLength
 token = '1239771112:AAFc73gTTkpsr9aoO4rNMPo-qKeKfsmQpyI'
@@ -39,6 +39,6 @@ Telegram::Bot::Client.run(token) do |bot|
       )
     end
   end
-end
+end 
 # rubocop:enable Layout/LineLength
 # rubocop:enable Metrics/BlockLength
