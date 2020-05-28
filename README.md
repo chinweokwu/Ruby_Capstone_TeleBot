@@ -1,6 +1,5 @@
 # Ruby_Capstone_TeleBot
-# Telegram_motivation_bot
-> Building a telegram motivational bot that can be initialized on the command line(windows) / terminal(mac &amp; linux) where it sends    motivational messages to a specific user on his or her telegram account
+> Building a telegram bot that can be initialized on the command line(windows) / terminal(mac &amp; linux) where it sends love and inspirational messages to a specific user on his or her telegram account
 
  > This is a capstone project for the ruby curriculum at microverse coding school.
 
@@ -9,8 +8,8 @@
 - Ruby 2.6.5
 - VS Code
 - Telegram Bot API
-- Type fit Quotes API
-- Yo mamma Jokes API
+- Rapid Quotes API
+
 
 ## How to Install
 
@@ -30,12 +29,18 @@
 
 - On your telegram account search for :
   ```
-   @mawaitha_bot
+   @morah_bot
 
    ``` 
-- Then press the /START button and follow the steps given
+-  press the START button to start your bot conversation
 
-     ![](img/ezgif.com-crop.gif)
+- Type command '/hi' to get greetings
+
+- Type command  '/start' to know the commands
+
+- Type command '/love' to get love quotes
+
+- Type command '/inspire' to get inspire quotes
 
 ## How to Test the Methods In the Classes
 
@@ -54,13 +59,14 @@
    rspec telegram_bot_tests.rb
    ```
 
-## Authors  ![Hireable](https://img.shields.io/badge/HIREABLE-YES-yellowgreen&?style=for-the-badge)
+## Author 
 
-👤 **Peter Robert**
+👤 **Paul Morah**
 
-- Github: [@peterrobert](https://github.com/peterrobert)
-- Twitter: [@ptahwambui93](https://twitter.com/Ptahwambui93)
-- Linkedin: [Peter Robert Ndungu](https://www.linkedin.com/in/peter-rob-ndungu/)
+- Github: [@githubhandle](https://github.com/chinweokwu)
+- Twitter: [@twitterhandle](https://twitter.com/Morah89820846)
+- Linkedin: [linkedin](https://www.linkedin.com/in/paul-morah-285b63172/)
+
 
 ## 🤝 Contributing
 
