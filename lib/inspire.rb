@@ -3,6 +3,7 @@ require 'net/http'
 require 'openssl'
 require 'json'
 require 'telegram/bot'
+require_relative 'bot.rb'
 
 class InspireQuotes
   def inspire_quotes
@@ -39,6 +40,6 @@ class InspireQuotes
   end
 end
 
-k = InspireQuotes.new
-puts k.inspire_quotes
-puts k.json_rspec
+# k = InspireQuotes.new
+# puts k.inspire_quotes
+# puts k.json_rspec

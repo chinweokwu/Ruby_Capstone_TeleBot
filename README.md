@@ -17,12 +17,12 @@
 - Download it as a [Zip File](https://github.com/peterrobert/Telegram_motivation_bolt.git). If you have installed Git in your system, you can clone it using **git clone** command.
 - For Windows users, open Command Prompt and run:
     ```console
-    C:\>cd TElEGRAM_MOTIVATIONAL_BOLT folder
-    C:\TElEGRAM_MOTIVATIONAL_BOLT folder> run ruby bin/main.rb
+    C:\>cd Ruby_Capstone_TeleBot folder
+    C:\Ruby_Capstone_TeleBot folder> run ruby bin/main.rb
     ```
 - For Linux and Mac users, open a Terminal and run:
     ```console
-    $ cd TElEGRAM_MOTIVATIONAL_BOLT folder
+    $ cd Ruby_Capstone_TeleBot folder
     $ run ruby bin/main.rb
     ``` 
 - Navigate to your telegram account

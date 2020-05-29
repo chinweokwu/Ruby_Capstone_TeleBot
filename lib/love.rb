@@ -3,6 +3,7 @@ require 'net/http'
 require 'openssl'
 require 'json'
 require 'telegram/bot'
+require_relative 'bot.rb'
 
 class LoveQuotes
   def luv
@@ -40,4 +41,4 @@ end
 
 pp = LoveQuotes.new
 puts pp.luv
-puts pp.luv_json
+# puts pp.luv_json
