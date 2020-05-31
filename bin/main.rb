@@ -1,5 +1,4 @@
 require_relative '../lib/bot.rb'
-require 'dotenv'
 
 puts 'Hello!, Welcome to telegram bot'
 puts '----------------------------------------------'
