@@ -10,11 +10,12 @@
 - Telegram Bot API
 - Rapid Quotes API
 
+## To Get Started
+- To get started, first install ruby in your system. you can read the [Documentation](https://www.ruby-lang.org/en/documentation/installation/)
 
 ## How to Install
-
-- Install Ruby in your system. To install Ruby, you can read the [Documentation](https://www.ruby-lang.org/en/documentation/installation/)
-- Download it as a [Zip File](https://github.com/peterrobert/Telegram_motivation_bolt.git). If you have installed Git in your system, you can clone it using **git clone** command.
+- Download it as a [Zip File](https://github.com/chinweokwu/Ruby_Capstone_TeleBot/tree/telebot_branch). 
+- If you have installed Git in your system, you can clone it using **git clone** command.
 - For Windows users, open Command Prompt and run:
     ```console
     C:\>cd Ruby_Capstone_TeleBot folder
@@ -25,6 +26,9 @@
     $ cd Ruby_Capstone_TeleBot folder
     $ run ruby bin/main.rb
     ``` 
+## How to Run bot on telegram
+- Create a telegram account 
+
 - Navigate to your telegram account
 
 - On your telegram account search for :
@@ -44,7 +48,6 @@
 
 ## How to Test the Methods In the Classes
 
-
  Install Rspec gem in your system. To do this:
 
  Open Command Prompt or Terminal and run:
@@ -53,10 +56,10 @@
   gem install Rspec
   ```
 
- Navigate into the spec folder and run the following at the console:
+ Navigate into the Ruby_Capstone_TeleBot folder and run the following at the console:
 
    ```console
-   rspec telegram_bot_tests.rb
+   rspec 
    ```
 
 ## Author 
@@ -70,6 +73,6 @@
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!. Feel free to check the [issues page](issues/).
+Contributions, issues and feature requests are welcome!. Feel free to check the [issues page](https://github.com/chinweokwu/Ruby_Capstone_TeleBot/issues).
 
 ## Show your support

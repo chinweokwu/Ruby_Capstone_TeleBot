@@ -12,10 +12,12 @@ require 'openssl'
 
 class BotRun
   def initialize
+    # @morah_bot
     token = '1239771112:AAFc73gTTkpsr9aoO4rNMPo-qKeKfsmQpyI'
-
+    #chinwe_bot
+    # token = '1224632117:AAH6HqfJAUd0Xw4qcbuBit7F4AyDbCUce64'
     Telegram::Bot::Client.run(token) do |bot|
-      begin
+     
        bot.listen do |message|
          case message.text
          when '/hi'
@@ -49,9 +51,7 @@ class BotRun
            )
          end
        end
-      rescue StandardError
-        retry
-     end
+
     end
   end
 end
