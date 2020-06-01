@@ -20,18 +20,20 @@ But it's not intented to be used widely, due to the limitations on the implement
 
 ## How to Install
 - Download it as a [Zip File](https://github.com/chinweokwu/Ruby_Capstone_TeleBot/tree/telebot_branch). 
-- If you have installed Git in your system, you can clone it using **git clone** command.
+- you can clone it using **git clone git@github.com:chinweokwu/Ruby_Capstone_TeleBot.git** command on your terminal.
 - For Windows users, open Command Prompt and run:
     ```console
     C:\>cd Ruby_Capstone_TeleBot folder
+     On your terminal you can run "bundle" to install ruby gem file.
     C:\Ruby_Capstone_TeleBot folder> run ruby bin/main.rb
     ```
 - For Linux and Mac users, open a Terminal and run:
     ```console
     $ cd Ruby_Capstone_TeleBot folder
+     On your terminal you can run "bundle" to install ruby gem file.
     $ run ruby bin/main.rb
     ``` 
-- On your terminal you can run "bundle" to install ruby gem file.
+
 
 ## How to Run bot on telegram
 - Create a telegram account 
