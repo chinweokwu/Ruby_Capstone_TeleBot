@@ -3,6 +3,10 @@
 
  > This is a capstone project for the ruby curriculum at microverse coding school.
 
+### Important note
+This Bot is *LIVE* for Telegram under the name **@morah_bot**.  
+But it's not intented to be used widely, due to the limitations on the implementation and deployment server I've choosen. 
+
 ## Built With
 
 - Ruby 2.6.5
@@ -11,7 +15,8 @@
 - Rapid Quotes API
 
 ## To Get Started
-- To get started, first install ruby in your system. you can read the [Documentation](https://www.ruby-lang.org/en/documentation/installation/)
+- To get started, you need to first install ruby in your system. you can read the [Documentation](https://www.ruby-lang.org/en/documentation/installation/)
+
 
 ## How to Install
 - Download it as a [Zip File](https://github.com/chinweokwu/Ruby_Capstone_TeleBot/tree/telebot_branch). 
@@ -26,12 +31,15 @@
     $ cd Ruby_Capstone_TeleBot folder
     $ run ruby bin/main.rb
     ``` 
+- On your terminal you can run "bundle" to install ruby gem file.
+
 ## How to Run bot on telegram
 - Create a telegram account 
 
 - Navigate to your telegram account
 
 - On your telegram account search for :
+
   ```
    @morah_bot
 
