@@ -1,6 +1,6 @@
-require_relative './lib/love'
-require_relative './lib/inspire'
-
+require './lib/love'
+require './lib/inspire'
+# if i use require_relative it give an error
 describe InspireQuotes do
   context '#inspire_quotes' do
     let(:inspire_req) { InspireQuotes.new }
