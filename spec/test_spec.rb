@@ -13,7 +13,7 @@ describe InspireQuotes do
 end
 
 describe LoveQuotes do
-  context '#luv_json & luv' do
+  context '#luv' do
     let(:love_req) { LoveQuotes.new }
     let(:love_string) { love_req.luv }
 
