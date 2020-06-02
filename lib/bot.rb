@@ -10,6 +10,8 @@ require 'openssl'
 # rubocop:disable Metrics/MethodLength
 
 class BotRun
+  attr_accessor :luv, :inspire_quotes
+
   def initialize
     # @morah_bot
     token = '1239771112:AAFc73gTTkpsr9aoO4rNMPo-qKeKfsmQpyI'
