@@ -1,5 +1,5 @@
-require './lib/love'
-require './lib/inspire'
+require_relative './lib/love'
+require_relative './lib/inspire'
 
 describe InspireQuotes do
   context '#inspire_quotes' do
