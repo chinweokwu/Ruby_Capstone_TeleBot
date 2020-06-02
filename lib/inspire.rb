@@ -39,7 +39,3 @@ class InspireQuotes
     result
   end
 end
-
-# k = InspireQuotes.new
-# puts k.inspire_quotes
-# puts k.json_rspec
